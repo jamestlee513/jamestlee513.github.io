@@ -2210,9 +2210,22 @@ input, select, textarea {
 
 /* Labeled Icons */
 
+	.skill-icon {
+		display: flex;
+		align-items: center;
+	}
+
+	.skill-icon img {
+		width: 120px;
+		height: auto;
+	}
+
 	ul.labeled-icons {
 		list-style: none;
 		padding: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 
 		ul.labeled-icons li {
